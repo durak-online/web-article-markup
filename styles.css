@@ -74,7 +74,7 @@ section {
     margin-top: 21px;
 }
 
-img {
+section img {
     margin-top: 43px;
     margin-bottom: 37px;
 }
@@ -103,7 +103,7 @@ img {
         line-height:22px;   
     }
 
-    section, img {
+    section, section img {
         margin: 25px 20px;
     }
 }
