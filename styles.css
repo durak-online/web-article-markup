@@ -2,9 +2,7 @@ nav ul {
     display: flex;
     flex-direction: row;
 
-}
 
-ul {
     list-style: none;
     padding: 20px 38px;
     background-color: whitesmoke;
@@ -14,8 +12,8 @@ ul {
     border-left: 0px;
     border-right: 0px;
     border-style: solid;
-    
 }
+
 
 ul li a {
     color: #333333;
@@ -46,6 +44,7 @@ h1  {
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:44px;
+    margin: 10px;
 }
 
 h2 {
@@ -54,6 +53,7 @@ h2 {
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:39px;
+    margin: 10px;
 }
 
 code {
@@ -66,10 +66,44 @@ p{
     color:rgba(0,0,0,0.84);
     text-align:left;
     line-height:33px;
+    margin: 10px;
+}
+
+section {
+    margin-bottom: 55px;
+    margin-top: 21px;
+}
+
+img {
+    margin-top: 43px;
+    margin-bottom: 37px;
 }
 
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+    nav ul {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;    
+        margin: 20px 0px;
+        line-height:28px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin: 6px 0px;
+        line-height:39px;
+    }
+
+    p {
+        font-size: 18px;
+        margin: 6px 0px;
+        line-height:22px;   
+    }
+
+    section, img {
+        margin: 25px 20px;
+    }
 }
