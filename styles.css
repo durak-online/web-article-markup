@@ -1,4 +1,19 @@
-/* Тут пиши основные стили */
+nav ul {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-top: #333333;
+    border-bottom: #333333;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: #333333;
+}
 
 
 @media (max-width: 800px) {
